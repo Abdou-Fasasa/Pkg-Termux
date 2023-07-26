@@ -1,0 +1,37 @@
+import os
+
+# تثبيت الحزم الأساسية
+os.system("pkg install git python python2")
+os.system("pkg install wget ruby proot clang")
+os.system("termux-setup-storage")
+
+# تثبيت الأدوات
+os.system("apt install php git golang -y")
+os.system("apt install nano")
+os.system("apt install cmatrix")
+os.system("pkg install figlet")
+os.system("pkg install wget")
+os.system("pkg install cowsay")
+os.system("pkg install toilet")
+os.system("pkg install ruby")
+os.system("gem install lolcat")
+os.system("pkg install curl")
+os.system("pkg install unzip")
+os.system("pkg install openssh")
+os.system("pkg install tor")
+os.system("pkg install net-tools")
+os.system("pkg install unrar")
+os.system("pkg install clang")
+os.system("pkg install w3m")
+os.system("pkg install proot")
+os.system("pip2 install wget")
+os.system("pip2 install requests")
+os.system("pkg install pacman4console")
+os.system("pkg install vim")
+os.system("pip install colorama")
+os.system("pip install bundle")
+os.system("gem install bundle")
+os.system("pip2 install requests")
+os.system("pip install --upgrade pip")
+
+print("تم تثبيت الحزم بنجاح!")
